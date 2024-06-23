@@ -16,4 +16,6 @@ export const authSlice = createSlice({
 
 export const { update } = authSlice.actions;
 
+export const selectItem = (state) => state.mySlice.item;
+
 export default authSlice.reducer;
