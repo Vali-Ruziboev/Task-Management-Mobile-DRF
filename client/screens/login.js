@@ -62,6 +62,7 @@ function Login() {
             setErrors((curr) => ({ ...curr, password: "" }));
             setForm((curr) => ({ ...curr, password }));
           }}
+          secureTextEntry={true}
           style={styles["input"]}
           label="Password"
         />
